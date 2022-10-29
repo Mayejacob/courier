@@ -14,6 +14,7 @@ use App\Http\Controllers\Admin\BranchMasterController;
 Route::get('/', function () {
     return view('auth/login');
 });
+// new
 
 Auth::routes();
 
